@@ -583,11 +583,11 @@ footer .logo .partoflogo{
     border: none;
 }
 
-.modal-svg:hover{
+.modal-close-button:hover .modal-svg{
     fill: #ffffff;
 }
 
-.modal-svg:focus{
+.modal-close-button:focus .modal-svg{
     fill: #ffffff;
 }
 
