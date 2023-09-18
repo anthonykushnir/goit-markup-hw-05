@@ -680,6 +680,11 @@ footer .logo .partoflogo{
     color: #8e8f99;
 }
 
+span{
+    --bg-color-checked: #404bbf;
+    --fill-color-checked: #F4F4FD;
+}
+
 .terms{
     width: 16px;
     height: 16px;
@@ -693,9 +698,9 @@ footer .logo .partoflogo{
 }
 
 .input-checkbox:checked .terms{
-    background-color: #404bbf;
+    background-color: var(--bg-color-checked);
     border: none;
-    fill: #F4F4FD;
+    fill: var(--fill-color-checked);
 }
 
 .privacy-policy{
