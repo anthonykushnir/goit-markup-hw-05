@@ -700,6 +700,7 @@ footer .logo .partoflogo{
 
 .privacy-policy{
     color: #4d5ae5;
+    text-decoration: underline;
 }
 
 .modal-button{
@@ -717,4 +718,5 @@ footer .logo .partoflogo{
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
